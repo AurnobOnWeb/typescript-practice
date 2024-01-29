@@ -19,3 +19,21 @@
 // AddTwoNumber =(a:number ,b:number) =>{
 //   return a+b;
 // }
+
+
+class userData {
+  age :number;
+  name:string;
+  constructor(name:string,age:number){
+    this.name =name;
+    this.age = age;
+  }
+  play(){
+    console.log(`${this.name} age is ${this.age}`);
+  }
+}
+
+const mash= new userData('mash',35);
+const sakib= new userData('sakib',35);
+
+  
