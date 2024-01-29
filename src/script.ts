@@ -21,19 +21,35 @@
 // }
 
 
-class userData {
-  age :number;
-  name:string;
-  constructor(name:string,age:number){
-    this.name =name;
-    this.age = age;
-  }
-  play(){
-    console.log(`${this.name} age is ${this.age}`);
-  }
-}
+// class userData {
+//   age :number;
+//   name:string;
+//   constructor(name:string,age:number){
+//     this.name =name;
+//     this.age = age;
+//   }
+//   play(){
+//     console.log(`${this.name} age is ${this.age}`);
+//   }
+// }
 
-const mash= new userData('mash',35);
-const sakib= new userData('sakib',35);
+// const mash= new userData('mash',35);
+// const sakib= new userData('sakib',35);
 
   
+
+// function draw(options:{
+//   width:number,
+//   length:number
+// }){
+//   let width = options.width;
+//   let length = options.length;
+// }
+
+// draw({
+//   width:30,
+//   length:40
+// })
+
+// Genenrics
+
